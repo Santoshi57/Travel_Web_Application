@@ -31,4 +31,30 @@ root{
    // background: #000;
     backdrop-filter: blur(5px);
 
+    .logoDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        span{
+            color: var(--blackColor);
+            font-size: var(--h3FontSize);
+            justify-content: center;
+        }
+    }
+
+    @media screen  and (max-width:767px){
+
+        .menu{
+            position: absolute;
+            width: 70%;
+            top: 8rem;
+            right: 50%;
+            background: rgba(255, 255, 255, 0.94);
+        }
+        
+    }
+
+
 }
