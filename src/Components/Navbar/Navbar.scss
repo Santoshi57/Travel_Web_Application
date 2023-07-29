@@ -22,7 +22,7 @@ root{
 .navBar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     padding: 1.5rem 2rem;
     position:fixed;
@@ -52,6 +52,28 @@ root{
             top: 8rem;
             right: 50%;
             background: rgba(255, 255, 255, 0.94);
+            padding: 2rem;
+            border-radius: 10px;
+            transition: .8s ease-in-out;
+            backdrop-filter: 10px;
+            box-shadow: 0 2px 3px 4px rgba(236, 213, 213, 0.516);
+
+
+            li{
+                font-size:var(--h3FontSize);
+                font-weight: 500;
+                padding:1rem 0;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    color: var(--primaryColor);
+                    border-bottom: 1.5px solid var(--primaryColor);
+                }
+            }
+
+
+
+
         }
         
     }
