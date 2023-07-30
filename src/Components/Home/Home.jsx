@@ -24,6 +24,15 @@ const Home = () => {
     <button> GET STARTED <AiOutLineSwapRight className='icon'/>
      </button>
   </div>
+<div className="popularPlaces">
+  <div className="content">
+    <h3>Popular Places</h3>
+   <div className="images flex">
+  
+  
+   </div>
+  </div>
+</div>
     </div>;
   
 };
