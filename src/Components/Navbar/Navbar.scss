@@ -78,5 +78,20 @@ root{
         
     }
 
+.menuIcon, .closeIcon{
+    font-size: var(--h1FontSize);
+    &:hover{
+        color: var(--primaryColor);
+    }
 
+}
+.closeIcon{
+    position: absolute;
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    color:var(--blackColor);
+    transform: translate(-50%);
+
+}
 }
