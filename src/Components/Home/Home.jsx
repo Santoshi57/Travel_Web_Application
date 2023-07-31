@@ -1,13 +1,13 @@
 import React from 'react';
 import './Home.css';
 
-import Video from '../../assets/video.mp4'
+import Video from '../../assets/video.mp4';
 
 
-import {AiOutLineSwapRight} from 'react-icons/ai'
+import {AiOutLineSwapRight} from 'react-icons/ai';
 const Home = () => {
-  return 
-    <div className="Home">
+return (
+     <div className="Home">
       <div className="videoBg">
         <video src ={Video} autoPlay loop muted></video>
       </div>
@@ -33,8 +33,8 @@ const Home = () => {
    </div>
   </div>
 </div>
-    </div>;
-  
+    </div>
+  );
 };
 
 export default Home;

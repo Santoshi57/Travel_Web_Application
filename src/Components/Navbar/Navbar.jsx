@@ -1,5 +1,5 @@
-import React from 'react';
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
 
 import {BiLogoMediumOld} from 'react-icons/bi';
 import {AiFillCloseCircle} from 'react-icons/ai';
@@ -17,9 +17,10 @@ const removeNavBar = () =>{
 };
 
 
-  return  <div className='navBar'>
+  return (
+     <div className="navBar">
         <div className="logoDiv">
-       < BiLogoMediumOld className='icon'/>
+        <BiLogoMediumOld className="icon"/>
       <span>OU-Trips</span>
         </div>
     <div className="menu">
@@ -30,12 +31,14 @@ const removeNavBar = () =>{
     <li className="navList">Gallery</li>
       </ul>
 
-      <AiFillCloseCircle className=" icon closeIcon" onClick={removeNavBar}/>
+      <AiFillCloseCircle className= "icon closeIcon" onClick={removeNavBar}/>
  </div>
  <button className="signUpBtn btn">Sign Up</button>
-    </div>;
-  
+   
+
   <PiDotsNineBold className="icon menuIcon" onClick={showNavBar}/>
+  </div>
+);
 };
 
 export default Navbar;

@@ -12,8 +12,8 @@ import Subscribe from './Components/Subscribe/Subscribe'
 
 function App() {
 return (
-    
- <div>
+
+<div>
 <Navbar/>
 <Home/>
 <Middle/>

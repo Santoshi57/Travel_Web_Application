@@ -22,14 +22,14 @@ root{
 .navBar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     width: 100%;
     padding: 1.5rem 2rem;
     position:fixed;
     border-bottom: 1.5px
     solid var(--primaryColor);
-   // background: #000;
     backdrop-filter: blur(5px);
+    z-index: 1000;
 
     .logoDiv{
         display: flex;

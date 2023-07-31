@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+//All project colors
 root{
     --primaryColor:hsl(14, 90%, 53%);
     --primaryColorLight:hsl(14, 96%, 91%);
@@ -29,6 +31,7 @@ root{
 body{
     background: var(--bgcolor);
 }
+//Default styling
 .flex{
     display: flex;
     align-items: center;
