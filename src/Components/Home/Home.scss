@@ -42,9 +42,7 @@ root{
     }
 
 
-
-
-    .sectionText{
+       .sectionText{
         position: absolute;
         height: 100%;
         top: 30%;
@@ -72,4 +70,9 @@ root{
             font-size: var(--h3FontSize);
         }
     }
+.popularPlaces{
+    display: none ;
+}
+
+
 }

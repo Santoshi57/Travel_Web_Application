@@ -21,7 +21,7 @@ return (
       Discover the worl's most adventurous nature,
       life is so short for a trip.
     </p>
-    <button> GET STARTED <AiOutLineSwapRight className='icon'/>
+    <button className="btn flex"> GET STARTED <AiOutLineSwapRight className='icon'/>
      </button>
   </div>
 <div className="popularPlaces">
