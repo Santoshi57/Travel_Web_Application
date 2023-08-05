@@ -1,19 +1,66 @@
-import React from 'react'
-import './Destinations.css'
+import React from "react";
+import "./Destinations.css";
 
 
 
 
 //Imporetd icons
-import {MdLocationPin} from "react-icons/md"
-import {BsFillCreditCardFill} from "react-icons/bs"
-import {BsFillCalendarDateFill} from "react-icons/bs"
-import {BiSearchAlt} from 'react-icons/bi'
-import {TiLocation} from 'react-icons/ti'
+import {MdLocationPin} from "react-icons/md";
+import {BsFillCreditCardFill} from "react-icons/bs";
+import {BsFillCalendarDateFill} from "react-icons/bs";
+import {BiSearchAlt} from "react-icons/bi";
+import {TiLocation} from "react-icons/ti";
 
 
 //impotred images
-import  image1 from '../../assets'
+import  image1 from '../../assets/image1.jpeg';
+
+
+const destination =[
+  {
+    id: 1,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+  {
+    id: 1,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+  {
+    id: 3,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+  {
+    id: 4,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+  {
+    id: 5,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+  {
+    id: 6,
+    img:image1,
+    name: 'Seychelles Island',
+    location: 'Indian Ocean',
+    rating:4.7,
+  },
+];
+
 
 const Destinations = () => {
   return (
@@ -75,23 +122,23 @@ const Destinations = () => {
                 </span>
                 <p className ="flex">
                   <TiLocation className="icon"/>
-                  Netherlands
+                 {destination.name}
                   </p>
               </div>
               <span className="rating">
-                4.6
+              {destination.rating}
               </span>
             </div>
             
             </div>
           </div>
-
+ 
         </div>
 
       </div>
       
     </div>
   );
-}
+};
 
 export default Destinations
