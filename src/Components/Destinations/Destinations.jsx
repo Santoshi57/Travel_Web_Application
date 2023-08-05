@@ -111,6 +111,11 @@ const Destinations = () => {
         </div>
 
         <div className="destinationContainer grid">
+          {destination.map(destination =>{
+            return(
+             i  
+            )
+          })}
           <div className="singleDestination">
             <div className="imgDiv">
             <img src={image1} alt="Destination Image "/>
