@@ -27,3 +27,34 @@ root{
     --smallFontSize:0.813rem;
     --borderRadius:3rem;
 }
+
+.portifolio{
+.secContainer{
+    gap: 2rem;
+    .leftContent{
+
+        .griid{
+            .singlePortifolio{
+                gap: 1rem;
+                align-items: flex-start;
+
+                .iconDiv{
+                    img{
+                        height: 50px;
+                        width: 50px;
+                    }
+
+                }
+
+
+                .infor{
+                    h4{
+                        padding-bottom: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+}
