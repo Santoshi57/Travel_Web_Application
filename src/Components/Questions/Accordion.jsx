@@ -3,7 +3,9 @@ import './Questions.css';
 //Imported icons
 import{BsArrowDownCircle} from 'react-icons/bs';
 
-const Accordion = () => {
+const Accordion = ({title, desc, active, aetActive}) => {
+
+
   return (
     <div className ="accordionContainer">
         <span className="title flex ">
