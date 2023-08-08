@@ -1,5 +1,6 @@
 import React from 'react';
 import './Questions.css';
+import Accordion from "./Accordion";
 
 const Questions = () => {
   return  <div className="questions section container">
@@ -9,6 +10,9 @@ const Questions = () => {
       <div className="secContainer grid">
         <div className="accordion grid">
 
+        </div>
+        <div className="accordion grid">
+          Accordion
         </div>
         <div className="form">
           <div className="secHeading">
