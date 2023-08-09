@@ -14,7 +14,7 @@ const Accordion = ({title, desc, active, aetActive}) => {
           <BsArrowDownCircle className="icon"/> 
           </span> 
         </span>
-  <p className="description"/>
+  <p className= {(active === title ? 'show': '')+ "description"}/>
 {desc}
     </div>
   );
