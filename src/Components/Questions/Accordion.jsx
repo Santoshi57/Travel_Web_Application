@@ -9,16 +9,13 @@ const Accordion = ({title, desc, active, aetActive}) => {
   return (
     <div className ="accordionContainer">
         <span className="title flex ">
-           How do i choose the right travel destination for me?
+           {title}
           <span>
           <BsArrowDownCircle className="icon"/> 
           </span> 
         </span>
-  <p className="description">
-    Consider your interests, budget,desired experiences,and the type of environment you 
-    enjoy. Research destinations that allign with your preferences and offer attractions or activities you 
-    find appealing.
-  </p>
+  <p className="description"/>
+{desc}
     </div>
   );
 };
